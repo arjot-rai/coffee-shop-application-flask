@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Orders</title>
+        <script src="static/orders.js"></script>
+        <link rel="stylesheet" href="static/orders.css">
+    </head>
+    <body>
+        <h1>Order Status</h1>
+        <label for="orderid">Enter your order number:</label>
+        <input type="text" id="orderid" name="orderid">
+        <button id="submitOrderNo" onclick="getOrderStatus()">Check Status</button>
+        <button id="cancelOrder" onclick="deleteOrder()">Cancel Order</button>
+        <div>
+            <p id="displayOrderID"></p>
+            <p id="displayStatus"></p>
+        </div>
+    </body>
+
+</html>
